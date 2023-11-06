@@ -1,0 +1,70 @@
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.btn-add {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.task {
+  background-color: rgb(202, 202, 202);
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  line-height: 0.6;
+}
+
+input {
+  width: calc(100% - 34px);
+  padding: 8px 15px;
+  margin-top: 5px;
+}
+.text-form-checkbox{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+}
+label{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.text-form{
+  padding: 10px 0px;
+}
+.btn-saveTask{
+  width: 100%;
+  background-color: #060606;
+  color: white;
+  border: none;
+  border-radius:2px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.reminder {
+  border-left: 8px green solid;
+
+}
